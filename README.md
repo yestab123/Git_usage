@@ -19,6 +19,7 @@ Git command usage
     git add  XXXXXX
     git commit -m "XXXXXX"
     git push -u origin master
+    (若git push 报403，修改.git/config中url，在github.com前面加上 username@，即 https://yestab123@github.com/XXXXX/XXXX.git)
 
 ###Delete
     git rm XXXX
