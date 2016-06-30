@@ -25,3 +25,7 @@ Git command usage
     git rm XXXX
     git commit -m "XXXXXXX"
     git push -u origin master
+    
+###Release
+    git tag v1.0.0
+    git push -u origin v1.0.0
